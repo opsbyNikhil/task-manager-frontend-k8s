@@ -4,11 +4,10 @@ metadata:
   name: task-manager-frontend-svc
   namespace: dev
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: task-manager-frontend-app
   ports:
     - port: 5173
-      nodePort: 30012
       targetPort: 5173
       protocol: TCP
