@@ -4,4 +4,4 @@ metadata:
   name: task-manager-frontend-configmap
   namespace: dev
 data:
-  VITE_API_URL: http://13.213.19.86:8000/api
+  VITE_API_URL: http://aa504d5d8d8e7455792097251864f8e9-1925842823.ap-southeast-1.elb.amazonaws.com:8000/api
