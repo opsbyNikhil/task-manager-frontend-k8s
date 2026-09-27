@@ -26,7 +26,7 @@ spec:
       containers:
         - image: 984912521466.dkr.ecr.ap-southeast-1.amazonaws.com/task_manager_frontend:v1.0.0
           name: task-manager-frontend
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           envFrom:
             - configMapRef:
                 name: task-manager-frontend-configmap
